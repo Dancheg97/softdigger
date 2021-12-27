@@ -5,6 +5,8 @@ theme:
   language: ru
   logo: shovel.png
   flacticon: icon.png
+  features:
+    - content.code.annotate 
   palette:
     - scheme: default
       toggle:
@@ -20,8 +22,14 @@ plugins:
       lang:
       - ru
       - en
-
 repo_url: https://github.com/Dancheg97/recourser
 
 extra_css: 
   - extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
