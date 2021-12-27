@@ -1,15 +1,27 @@
-site_name: Рекурсер
+site_name: SOFTDIGGER
 
 theme:
   name: material
   language: ru
-  logo: icon.png
+  logo: shovel.png
+  flacticon: icon.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Темная тема
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Светлая тема
 
 plugins:
   - search:
       lang:
       - ru
       - en
+
+repo_url: https://github.com/Dancheg97/recourser
 
 extra_css: 
   - extra.css
