@@ -1,0 +1,15 @@
+site_name: Рекурсер
+
+theme:
+  name: material
+  language: ru
+  logo: icon.png
+
+plugins:
+  - search:
+      lang:
+      - ru
+      - en
+
+extra_css: 
+  - extra.css
