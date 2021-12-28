@@ -6,7 +6,9 @@ theme:
   logo: shovel.png
   flacticon: icon.png
   features:
-    - content.code.annotate 
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
   palette:
     - scheme: default
       toggle:
@@ -22,7 +24,10 @@ plugins:
       lang:
       - ru
       - en
+
 repo_url: https://github.com/Dancheg97/recourser
+repo_name: SOFTDIGGER
+edit_uri: ""
 
 extra_css: 
   - extra.css
