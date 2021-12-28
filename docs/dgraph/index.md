@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img width="440px" height="440px" src="dgraph.png" alt="logo"/>
+  <img width="220px" height="220px" src="dgraph.png" alt="logo"/>
 </p>
 
 Dgraph - Это горизонтально масштабируемая графовая (GraphQL) база данных с открытым кодом, созданная в стартапе Dgraph Labs.
