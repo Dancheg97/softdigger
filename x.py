@@ -1,10 +1,8 @@
-a = 1
-b = 2
-c = 3
+def unbeattable_comparison(a, b):
+    try:
+        return a>b
+    except Exception:
+        print('Что ты сравниваешь>??' + Exception)
+        return False
 
-def mult_print(a, b, c):
-    print('результат умножения: ' + str(a*b*c))
-    return a*b*c
-
-print(mult_print(a, b, c))
-print(mult_print(a, b, c))
+print(unbeattable_comparison(1, '1'))
