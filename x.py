@@ -1,8 +1,12 @@
+import traceback
+
 def unbeattable_comparison(a, b):
     try:
         return a>b
-    except Exception:
-        print('Что ты сравниваешь>??' + Exception)
+    except:
+        print(traceback.format_exc())
         return False
 
 print(unbeattable_comparison(1, '1'))
+
+print('программа закончила работу')
