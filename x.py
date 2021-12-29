@@ -1,13 +1,2 @@
-
-PODRUGA = 'MASHA'
-
-def switch():
-    global PODRUGA
-    PODRUGA = 'SVETA'
-
-def check():
-    print(PODRUGA)
-
-check()
-switch()
-check()
+import numpy
+print(numpy.shape([1, 2, 3]))
