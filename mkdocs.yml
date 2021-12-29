@@ -33,6 +33,7 @@ extra_css:
   - extra.css
 
 markdown_extensions:
+  - meta
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

@@ -1,5 +1,10 @@
-a = [1, 2, 3]
-print(a)
-b = a.pop(1)
-print(a)
-print(b)
+a = 1
+b = 2
+c = 3
+
+def mult_print(a, b, c):
+    print('результат умножения: ' + str(a*b*c))
+    return a*b*c
+
+print(mult_print(a, b, c))
+print(mult_print(a, b, c))
