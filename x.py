@@ -1,12 +1,13 @@
-import traceback
 
-def unbeattable_comparison(a, b):
-    try:
-        return a>b
-    except:
-        print(traceback.format_exc())
-        return False
+PODRUGA = 'MASHA'
 
-print(unbeattable_comparison(1, '1'))
+def switch():
+    global PODRUGA
+    PODRUGA = 'SVETA'
 
-print('программа закончила работу')
+def check():
+    print(PODRUGA)
+
+check()
+switch()
+check()
