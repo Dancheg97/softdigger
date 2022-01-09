@@ -1,7 +1,8 @@
+print(1)
+print('вася')
+print(True)
 
-def add_number(a, b=1):
-    return a + b
+class Duck:
+    isDuck = True
 
-print(add_number(1))
-
-print(add_number(1, 5))
+print(Duck)
