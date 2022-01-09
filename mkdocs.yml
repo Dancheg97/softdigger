@@ -30,7 +30,7 @@ theme:
   name: material
   language: ru
   logo: shovel.png
-  flacticon: icon.png
+  flacticon: shovel.png
   features:
     - navigation.tabs
     - navigation.expand
