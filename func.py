@@ -1,6 +1,23 @@
-"""file with dangerous function"""
+import asyncio
+import time
 
 
-def double_capitalize(inp: str) -> str:
-    """funciton that capitilizes and doubles string"""
-    return inp.upper() * 2
+async def say_after(delay: int, what: str):
+    await asyncio.sleep(delay)
+    print(what)
+
+
+async def main():
+    task1 = asyncio.create_task(say_after(1, "hello"))
+
+    task2 = asyncio.create_task(say_after(2, "world"))
+
+    print(f"started at {time.strftime('%X')}")
+
+    await task1
+    await task2
+
+    print(f"finished at {time.strftime('%X')}")
+
+
+asyncio.run(main())
