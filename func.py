@@ -1,6 +1,5 @@
-import requests
+import os
 
-response = requests.post('https://httpbin.org/post', data={'key': 'value'})
+rez = os.system("git status -uno")
 
-print(response.status_code)
-
+print(rez)
