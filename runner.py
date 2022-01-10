@@ -1,6 +1,8 @@
 import os
 import time
 
+print("starting updating from git")
+
 while True:
     time.sleep(0.2)
     os.system("git pull &> /dev/null")
