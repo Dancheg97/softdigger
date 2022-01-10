@@ -47,8 +47,7 @@ hide:
 На данный момент на платформе представлены курсы по следующим языкам программирования/фреймворкам/инструментам:
 
 - [`python`](python/index.md)
-- git (скоро)
-- dgraph (скоро)
-- flask (скоро)
-- docker (скоро)
-- go (скоро)
+- [`git`](git/index.md)
+- [`dgraph`](dgraph/index.md)
+- [`docker`](docker/index.md)
+- [`grpc`](grpc/index.md)
