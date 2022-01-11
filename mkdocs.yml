@@ -3,6 +3,7 @@ site_name: SOFTDIGGER
 repo_url: https://github.com/Dancheg97/recourser
 repo_name: SOFTDIGGER
 edit_uri: ""
+copyright: Copyright &copy; 2022 - SOFTDIGGER
 
 extra_css: 
   - extra.css
@@ -16,16 +17,18 @@ extra:
       link: https://github.com/Dancheg97/softdigger
       name: GitHub
     - icon: fontawesome/brands/docker
-      link: https://nan.com
+      link: https://docker.com
       name: docker
-
-copyright: Copyright &copy; 2022 - SOFTDIGGER
 
 plugins:
   - search:
       lang:
       - ru
       - en
+  - social:
+    cards_color:
+        fill: "#066e66" 
+        text: "#FFFFFF"
 
 markdown_extensions:
   - meta
