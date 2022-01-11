@@ -9,18 +9,17 @@ extra_css:
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Dancheg97/softdigger
-      name: GitHub
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCKE1ZP6xH0sTjj3JpMdeBWA
       name: YouTube
+    - icon: fontawesome/brands/github
+      link: https://github.com/Dancheg97/softdigger
+      name: GitHub
     - icon: fontawesome/brands/docker
       link: https://nan.com
       name: docker
-    - icon: fontawesome/solid/mail-bulk
-      link: dangndancheg@gmail.com
-      name: docker
+
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
 
 plugins:
   - search:
