@@ -1,4 +1,4 @@
-# Авторизация
+# AUTH
 
 <html lang="en">
   <head>
