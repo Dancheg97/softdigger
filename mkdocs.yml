@@ -19,7 +19,7 @@ extra:
       link: https://nan.com
       name: docker
 
-copyright: Copyright &copy; 2016 - 2020 Martin Donath
+copyright: Copyright &copy; 2022 - SOFTDIGGER
 
 plugins:
   - search:
