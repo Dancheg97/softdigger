@@ -9,8 +9,10 @@ extra_css:
 
 extra:
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/github
+      link: https://github.com/Dancheg97/softdigger
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCKE1ZP6xH0sTjj3JpMdeBWA
 
 plugins:
   - search:
