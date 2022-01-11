@@ -33,7 +33,7 @@ theme:
   favicon: favi.png
   features:
     - navigation.tabs
-    - navigation.expand
+    # - navigation.expand
     - navigation.top
   palette:
     - scheme: default
