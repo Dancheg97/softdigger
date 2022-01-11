@@ -25,10 +25,7 @@ plugins:
       lang:
       - ru
       - en
-  - social:
-    cards_color:
-        fill: "#066e66" 
-        text: "#FFFFFF"
+  - social
 
 markdown_extensions:
   - meta
