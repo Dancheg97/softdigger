@@ -15,9 +15,12 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCKE1ZP6xH0sTjj3JpMdeBWA
       name: YouTube
-    - icon: fontawesome/brands/stack-overflow
-      link: https://stackoverflow.com/users/12497960/danila-fomin
-      name: StackOverFlow
+    - icon: fontawesome/brands/docker
+      link: https://nan.com
+      name: docker
+    - icon: fontawesome/solid/mail-bulk
+      link: dangndancheg@gmail.com
+      name: docker
 
 plugins:
   - search:
