@@ -7,6 +7,11 @@ edit_uri: ""
 extra_css: 
   - extra.css
 
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+
 plugins:
   - search:
       lang:
