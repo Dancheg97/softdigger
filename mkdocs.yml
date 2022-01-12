@@ -25,7 +25,6 @@ plugins:
       lang:
       - ru
       - en
-  - social
 
 markdown_extensions:
   - meta
