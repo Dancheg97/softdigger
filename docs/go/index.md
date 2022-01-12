@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img width="320px" height="320px" src="go.png" alt="logo"/>
+  <img width="520px" height="520px" src="go.png" alt="logo"/>
 </p>
 
 
