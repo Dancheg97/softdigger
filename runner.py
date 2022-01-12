@@ -8,4 +8,4 @@ while True:
     rez = os.popen("git pull").read()
     if not "Already up" in rez:
         print("making an update")
-        os.system("python3 -m mkdocs build")
+        os.system("python3.7 -m mkdocs build")
