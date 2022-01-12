@@ -9,16 +9,16 @@ cd Python-3.7.11
 ./configure --enable-optimizations 
 make altinstall
 rm /usr/src/Python-3.7.11.tgz -y
-# export python and pip path 
-export PATH=$PATH:/usr/local/bin/python3.7
-export PATH=$PATH:/usr/local/bin/pip3.7
 # install go
 cd /root/
 wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
-# export go path
-export PATH=$PATH:/usr/local/go/bin
 # clone git repo
 git clone https://github.com/Dancheg97/softdigger
 cd softdigger
+# export paths
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/bin/python3.7
+export PATH=$PATH:/usr/local/bin/pip3.7
+#install packages
 pip3.7 install -r requirements.txt
