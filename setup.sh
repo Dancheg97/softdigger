@@ -16,11 +16,8 @@ sudo tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
 # clone git repo
 git clone https://github.com/Dancheg97/softdigger
 cd softdigger
-# export paths
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/usr/local/bin/python3.7
-export PATH=$PATH:/usr/local/bin/pip3.7
 # install packages
+export PATH=$PATH:/usr/local/bin/pip3.7
 pip3.7 install -r requirements.txt
 # open port
 sudo firewall-cmd --zone=public --permanent --add-port=80/tcp
