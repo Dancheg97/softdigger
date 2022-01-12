@@ -1,2 +1,2 @@
 nohup go run .
-nohup python3 runner.py
+nohup python3.7 runner.py
