@@ -20,5 +20,8 @@ cd softdigger
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/usr/local/bin/python3.7
 export PATH=$PATH:/usr/local/bin/pip3.7
-#install packages
+# install packages
 pip3.7 install -r requirements.txt
+# open port
+sudo firewall-cmd --zone=public --permanent --add-port=80/tcp
+sudo firewall-cmd --reload
