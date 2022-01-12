@@ -2,6 +2,14 @@
 
 [Git grep](https://git-scm.com/docs/git-grep) - позволяет выполнить поиск на регулярках в системе контроля версий. Очень полезная команда которая позволяет найти как изменения по комментариям/тагам так и по изменениям в файлах.
 
+
+---
+
+Пример:
+```bash
+git grep "mes"
+```
+
 ---
 
 Параметры:
@@ -27,9 +35,4 @@ git grep [-a | --text] [-I] [--textconv] [-i | --ignore-case] [-w | --word-regex
 	   [--recurse-submodules] [--parent-basename <basename>]
 	   [ [--[no-]exclude-standard] [--cached | --no-index | --untracked] | <tree>…​]
 	   [--] [<pathspec>…​]
-```
-
-Пример:
-```bash
-git grep "mes"
 ```

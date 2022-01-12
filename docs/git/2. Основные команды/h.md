@@ -2,6 +2,14 @@
 
 [Git branch](https://git-scm.com/docs/git-branch) - команда используется для создания новой ветки в git. 
 
+---
+
+Пример:
+
+```bash
+git branch feature3245
+```
+
 
 ---
 
@@ -23,10 +31,4 @@ git branch (-m | -M) [<oldbranch>] <newbranch>
 git branch (-c | -C) [<oldbranch>] <newbranch>
 git branch (-d | -D) [-r] <branchname>…​
 git branch --edit-description [<branchname>]
-```
-
-Пример:
-
-```bash
-git branch feature3245
 ```

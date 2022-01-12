@@ -2,6 +2,14 @@
 
 [Git config](https://git-scm.com/docs/git-config) - это командка которая исопльзуется для назначения и получения конфигурационной информации. Как правило используется для утсновки имени/фамилии/email/ различных токенов для доступов и др.
 
+---
+
+Пример:
+
+```bash
+git config --global user.name "FIRST_NAME LAST_NAME"
+```
+
 
 ---
 
@@ -24,10 +32,4 @@ git config [<file-option>] [--show-origin] [--show-scope] [-z|--null] [--name-on
 git config [<file-option>] --get-color name [default]
 git config [<file-option>] --get-colorbool name [stdout-is-tty]
 git config [<file-option>] -e | --edit
-```
-
-Пример:
-
-```bash
-git config --global user.name "FIRST_NAME LAST_NAME"
 ```

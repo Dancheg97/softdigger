@@ -3,6 +3,14 @@
 [Git stash](https://git-scm.com/docs/git-stash) - одна из самых полезных git команд которая используется для сохранения изменений в 'изоляции'. Нужна в тех сценариях, когда работая в определенной ветке  необходимо быстро переключиться на работу в другой, и текущие изменения необходимо сохранить.
 
 
+---
+
+Пример:
+
+```bash
+git stash
+```
+
 
 ---
 
@@ -21,10 +29,4 @@ git stash [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]
 git stash clear
 git stash create [<message>]
 git stash store [-m|--message <message>] [-q|--quiet] <commit>
-```
-
-Пример:
-
-```bash
-git stash
 ```

@@ -2,6 +2,15 @@
 
 [Git commit](https://git-scm.com/docs/git-commit) - команда которая используется для создания коммита (запись изменений в определенную ветку репозитория).
 
+---
+
+Пример:
+
+```bash
+git commit -m 'some message'
+```
+
+
 
 ---
 
@@ -17,10 +26,3 @@ git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
 	   [(--trailer <token>[(=|:)<value>])…​] [-S[<keyid>]]
 	   [--] [<pathspec>…​]
 ```
-
-Пример:
-
-```bash
-git commit -m 'some message'
-```
-

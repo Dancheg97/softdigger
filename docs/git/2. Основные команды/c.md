@@ -5,6 +5,14 @@
 
 ---
 
+Минимальный пример:
+
+```bash
+git add .
+```
+
+---
+
 Параметры:
 
 ```bash
@@ -13,10 +21,4 @@ git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [-
 	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
 	  [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
 	  [--] [<pathspec>…​]
-```
-
-Минимальный пример:
-
-```bash
-git add .
 ```

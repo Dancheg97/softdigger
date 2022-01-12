@@ -7,6 +7,14 @@
 
 ---
 
+Минимальный пример:
+
+```bash
+git clone git://git.kernel.org/pub/scm/.../linux.git my-linux
+```
+
+---
+
 Параметры:
 
 ```bash
@@ -19,10 +27,4 @@ git clone [--template=<template_directory>]
     [--[no-]remote-submodules] [--jobs <n>] [--sparse] [--[no-]reject-shallow]
     [--filter=<filter>] [--] <repository>
     [<directory>]
-```
-
-Минимальный пример:
-
-```bash
-git clone git://git.kernel.org/pub/scm/.../linux.git my-linux
 ```

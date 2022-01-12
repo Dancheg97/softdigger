@@ -4,6 +4,13 @@
 
 Есть ветка которая отдает, и есть ветка которая принимает. Изменения после слияния являются актуальными для принимающей ветки, а отдающая ветка сохраняется в истории.
 
+---
+
+
+Пример:
+```bash
+git merge feature3245
+```
 
 ---
 
@@ -15,9 +22,4 @@ git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]
 	[--[no-]allow-unrelated-histories]
 	[--[no-]rerere-autoupdate] [-m <msg>] [-F <file>] [<commit>…​]
 git merge (--continue | --abort | --quit)
-```
-
-Пример:
-```bash
-git merge feature3245
 ```
