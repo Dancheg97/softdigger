@@ -2,6 +2,11 @@
 
 [Git commit](https://git-scm.com/docs/git-commit) - команда которая используется для создания коммита (запись изменений в определенную ветку репозитория).
 
+
+---
+
+Параметры:
+
 ```bash
 git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
 	   [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]

@@ -2,6 +2,11 @@
 
 [Git branch](https://git-scm.com/docs/git-branch) - команда используется для создания новой ветки в git. 
 
+
+---
+
+Параметры:
+
 ```bash
 git branch [--color[=<when>] | --no-color] [--show-current]
 	[-v [--abbrev=<n> | --no-abbrev]]

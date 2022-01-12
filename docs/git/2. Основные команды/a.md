@@ -4,16 +4,21 @@
 
 Является отправной точкой для дальнеших манипуляций с git.
 
+---
+
+Пример:
+
+```bash
+git init
+```
+
+---
+
+Параметры:
 
 ```bash
 git init [-q | --quiet] [--bare] [--template=<template_directory>]
          [--separate-git-dir <git dir>] [--object-format=<format>]
          [-b <branch-name> | --initial-branch=<branch-name>]
          [--shared[=<permissions>]] [directory]
-```
-
-Минимальный пример:
-
-```bash
-git init
 ```

@@ -3,6 +3,11 @@
 [Git config](https://git-scm.com/docs/git-config) - это командка которая исопльзуется для назначения и получения конфигурационной информации. Как правило используется для утсновки имени/фамилии/email/ различных токенов для доступов и др.
 
 
+---
+
+Параметры:
+
+
 ```bash
 git config [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|--null] name [value [value-pattern]]
 git config [<file-option>] [--type=<type>] --add name value

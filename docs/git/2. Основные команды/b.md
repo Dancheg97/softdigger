@@ -4,6 +4,11 @@
 
 Может использоваться как альтернатива git init если есть желание начать работать с уже существующим проектом.
 
+
+---
+
+Параметры:
+
 ```bash
 git clone [--template=<template_directory>]
     [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]

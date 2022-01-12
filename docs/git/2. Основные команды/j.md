@@ -2,6 +2,11 @@
 
 [Git checkout](https://git-scm.com/docs/git-checkout) - команда которая используется для переключения между рабочими ветками. Позволяет зайти в необходимую для работы ветку.
 
+
+---
+
+Параметры:
+
 ```bash
 git checkout [-q] [-f] [-m] [<branch>]
 git checkout [-q] [-f] [-m] --detach [<branch>]
