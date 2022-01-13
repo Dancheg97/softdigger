@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="520px" height="520px" src="go2.png" alt="logo"/>
+  <img width="320px" height="320px" src="go2.png" alt="logo"/>
 </p>
 
 
