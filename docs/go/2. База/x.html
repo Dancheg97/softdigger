@@ -3,9 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-	<title>Example using the genuine playground.js file</title>
-
+	<title>Examples</title>
 	<link type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet"/>
 	<link type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet"/>
 </head>
@@ -15,45 +13,20 @@
 	<div class="row-fluid">
 		<div class="span12">			
 
-<h1>Using playground.js</h1>
+<h1>Examples</h1>
 
-<p>You can use the genuine playground.js script :</p>
+<p>List of examples :</p>
 
-<textarea id="code" name="code" style="width: 100%; font-family: monospace;" rows="12">
-package main
-
-import "time"
-
-func main() {
-    println("One")
-    timer := time.NewTimer(time.Second * 2)
-    <- timer.C
-    println("Timer expired")
-}
-</textarea>
-
-<p>
-<input type="button" id="run" class="btn btn-primary" value="Execute" />
-<input type="button" id="fmt" class="btn btn-info" value="Format" />
-</p>
-
-<div id="output"></div>
+<ul>
+	<li><a href="go-playground.html">genuine playground.js file</a></li>
+	<li><a href="custom-playground.html">custom playground js script</a></li>
+	<li><a href="custom-playground-modal.html">custom playground.js and a modal execution form</a></li>
+	<li><a href="file-playground.html">File on the server side</a></li>
+</ul>
 
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/playground.js"></script>
-	
-<script type="text/javascript">
-	$(function() {
-		//Initialize Go playground
-		playground({
-				'codeEl':       '#code',
-				'outputEl':     '#output',
-				'runEl':        '#run',
-				'fmtEl':        '#fmt'
-			});
-	});
-</script>
+
 		</div>
 	</div>
 </div>
