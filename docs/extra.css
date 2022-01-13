@@ -2,3 +2,4 @@
     --md-primary-fg-color: #0a8d82;
     --md-accent-fg-color: #0a8d82;
 }
+md-footer__inner { display: none }
