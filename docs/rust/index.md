@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img height="320px" src="rust.png" alt="logo"/>
+  <img width="350px" height="350px" src="rust.png" alt="logo"/>
 </p>
 
 
