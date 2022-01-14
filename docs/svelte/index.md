@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img width="380px" height="380px" src="svelte.png" alt="logo"/>
+  <img width="320px" height="320px" src="svelte.png" alt="logo"/>
 </p>
 
 
