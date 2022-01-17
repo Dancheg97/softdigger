@@ -12,7 +12,7 @@ type mes struct {
 
 var lastMes = "no message"
 
-func homePage(w http.ResponseWriter, r *http.Request) {
+func changeMes(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(lastMes)
 	reqBody, _ := ioutil.ReadAll(r.Body)
 	var ms mes
@@ -21,6 +21,6 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", homePage)
-	http.ListenAndServe(":10000", nil)
+	http.HandleFunc("/", changeMes)
+	http.ListenAndServe(":80", nil)
 }
